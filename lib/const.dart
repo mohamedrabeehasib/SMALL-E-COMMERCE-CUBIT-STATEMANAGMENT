@@ -16,9 +16,6 @@ const String payNow = "PAY NOW";
 final aBezze = GoogleFonts.aBeeZee();
 
 // Colors
-const darkBlue = Color(0xFF282c4b);
-const lightBlue = Color(0xFF63a1f0);
-const blue = Color(0xff3080ed);
 const white = Color(0xFFFFFFFF);
 const grey = Color(0xFF9E9E9E);
 const bgColor = Color(0xFFf5f7fb);
