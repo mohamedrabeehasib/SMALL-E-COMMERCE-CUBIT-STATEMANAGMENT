@@ -9,7 +9,6 @@ class CartTile extends StatefulWidget {
   const CartTile({super.key, required this.index, required this.product});
   final int index;
   final Product product;
-
   @override
   State<CartTile> createState() => _CartTileState();
 }

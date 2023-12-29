@@ -16,20 +16,10 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return const MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: const IntroScreen(),
-      theme: themeData(),
+      home: IntroScreen(),
     );
   }
 }
 
-ThemeData themeData() {
-  return ThemeData(
-      scaffoldBackgroundColor: bgColor,
-      appBarTheme: const AppBarTheme(
-        toolbarHeight: 100,
-        color: Colors.transparent,
-        elevation: 0,
-      ));
-}
