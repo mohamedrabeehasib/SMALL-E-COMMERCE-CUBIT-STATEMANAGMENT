@@ -1,4 +1,3 @@
-import 'package:ecomerce/const.dart';
 import 'package:ecomerce/cubit/product_cubit.dart';
 import 'package:ecomerce/screens/intro_screen.dart';
 import 'package:flutter/material.dart';
